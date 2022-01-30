@@ -67,12 +67,17 @@ nav li.current,a.current {
     align-content: center;
 }
 
-.imac-image {
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+img.imac-image {
     height: 200px;
     width: auto;
 }
 
-.xbox-image {
+img.xbox-image {
     height: 200px;
     width: auto;
 }
