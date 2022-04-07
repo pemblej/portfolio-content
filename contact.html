@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="images/favicon.ico"> -->
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a6c6809c62.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GB25PYSR8S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-GB25PYSR8S');
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="imac.html">Apple iMac</a></li>
+          <li><a href="harmon-kardon.html">Harmon/Kardon Soundsticks 4</a></li>
+          <li><a href="xbox.html">Microsoft Xbox Series S</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class = "skip" href="#main">Skip to Main Content</a>
+      <h1 id="main">Contact Me</h1>
+    </header>
+    <main>
+      <form action="https://formspree.io/f/xnqwbqjn" method="POST">
+        <fieldset>
+          <legend>Sample Form</legend>
+          <lable for="name">Your Name</lable>
+          <input id="name" type="text" name="name" placeholder="Enter Your Name">
+      
+          <label for="email">Your Email</label>
+          <input id="email" type="email" name="email" required>
+      
+          <label for="phone">Your Phone Number</label>
+          <input id="phone" type="tel" name="phone">
+          <div><span>Format: 123-456-7890</span></div>
+      
+          <label for="message">Leave A Message</label>
+      
+          <textarea id="message"></textarea>
+      
+          <input type="submit" value="Send form">
+        </fieldset>
+       </form>
+    </main>
+    <footer>
+      <i class="fa-brands fa-behance-square fa-2xl"></i>
+      <i class="fa-brands fa-linkedin fa-2xl"></i>
+      <p>Judah Pemble &copy; 2022</p>
+    </footer>
+  </body>
+</html>
