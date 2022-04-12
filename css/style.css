@@ -29,7 +29,7 @@ nav {
 }
 
 nav li,a {
-    display: inline-block;
+    display: block;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -37,7 +37,7 @@ nav li,a {
     margin: 8px 8px;
     height: 22px;
     text-decoration: none;
-    line-height: 8px;
+    line-height: 20px;
     font-family: Futura, Helvetica, "sans-serif";
     font-weight: 500;
 }
@@ -60,7 +60,7 @@ a.skip{
     transition: left 1s ease-out;
     z-index: 1;
     position: relative;
-    right: 500px;
+    right: 700px;
   }
 
   .skip:focus {
@@ -89,10 +89,10 @@ a.skip{
     padding: 2px;
 }
 
-img.imac-image {
-    height: 100%;
+/* img.imac-image {
+    max-height: 30%;
     width: auto;
-}
+} */
 
 /* img.xbox-image {
     height: 100%;
@@ -265,6 +265,11 @@ i {
 
     nav li,a {
         font-size: 15px;
+        display: inline-block;
+        line-height: 8px;
+    }
+    nav {
+        height: 100px;
     }
 }
 
@@ -287,6 +292,8 @@ i {
         margin: 0 8px;
         height: 22px;
         text-decoration: none;
+        
+        line-height: 8px;
     }
 
     .landing-page img {
